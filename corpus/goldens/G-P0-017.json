@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "genesis.oracle.v1",
+  "caseId": "G-P0-017",
+  "class": "ST",
+  "reference": {
+    "weasisTag": "v4.7.0",
+    "weasisCommit": "3b3e46c59879ead782e5c474e895befae616a715"
+  },
+  "platform": {
+    "os": "Linux",
+    "arch": "amd64",
+    "jdk": "25.0.4.1"
+  },
+  "api": "org.weasis.core.ui.serialize.XmlSerializer.writePresentation(GraphicModel, Writer)",
+  "writePresentationMethods": [
+    "writePresentation(ImageElement, File)",
+    "writePresentation(ImageElement, Writer)",
+    "writePresentation(GraphicModel, Writer)"
+  ],
+  "model": "non-empty XmlGraphicModel + PointGraphic on DRAW layer",
+  "hasSerializableGraphics": true,
+  "xmlContainsPresentation": true,
+  "xmlContainsGraphic": true,
+  "xmlBytes": 490,
+  "fourSevenWritesXmlGraphics": true,
+  "oP5008Applies": true,
+  "weasisOwnTest": "weasis-core/.../imp/suite/SerializationTest.java"
+}

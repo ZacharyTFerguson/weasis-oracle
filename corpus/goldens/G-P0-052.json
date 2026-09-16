@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "genesis.oracle.v1",
+  "caseId": "G-P0-052",
+  "class": "ST",
+  "file": "G-P0-phantom-ct-02.dcm",
+  "reference": {
+    "weasisTag": "v4.7.0",
+    "weasisCommit": "3b3e46c59879ead782e5c474e895befae616a715"
+  },
+  "oracles": [
+    "weasis-DumpMain-storedPixelData",
+    "pydicom",
+    "dcmtk-dcmdump",
+    "dcmtk-dcmj2pnm"
+  ],
+  "notIndependent": "dcm4che is the Weasis stack",
+  "fusedLut": "dropped in 0a; independently derived or wait for G-P0-042 / 0b",
+  "header": {
+    "StudyInstanceUID": "1.2.826.0.1.3680043.10.541.1.1",
+    "SeriesInstanceUID": "1.2.826.0.1.3680043.10.541.1.2",
+    "SOPInstanceUID": "1.2.826.0.1.3680043.10.541.1.2.2",
+    "Rows": 16,
+    "Columns": 16,
+    "BitsAllocated": 16,
+    "ImagePositionPatient": [0.0, 0.0, 10.0],
+    "ImageOrientationPatient": [1.0, 0.0, 0.0, 0.0, 1.0, 0.0]
+  },
+  "dcmdumpMatchedListedUIDs": true,
+  "storedPixelSHA256": {
+    "pydicomPixelData": "d93bf0591d37628e5f4aabec5c1969b05014fe5a19478ba3a1c7f2799e6dc84f",
+    "pydicomPixelArray": "d93bf0591d37628e5f4aabec5c1969b05014fe5a19478ba3a1c7f2799e6dc84f",
+    "dcmtkDcmj2pnmNoModalityNoVoi": "d93bf0591d37628e5f4aabec5c1969b05014fe5a19478ba3a1c7f2799e6dc84f",
+    "weasisStoredPixelData": "d93bf0591d37628e5f4aabec5c1969b05014fe5a19478ba3a1c7f2799e6dc84f",
+    "weasisDecodedRawFrame": "d93bf0591d37628e5f4aabec5c1969b05014fe5a19478ba3a1c7f2799e6dc84f",
+    "weasisRawFrame": "d93bf0591d37628e5f4aabec5c1969b05014fe5a19478ba3a1c7f2799e6dc84f"
+  },
+  "disagreements": [],
+  "threeWayStoredPixelsAgree": true
+}
