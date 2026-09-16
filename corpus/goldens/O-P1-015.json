@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "genesis.oracle.v1",
+  "caseId": "O-P1-015",
+  "class": "ST",
+  "reference": {
+    "weasisTag": "v4.7.0",
+    "weasisCommit": "3b3e46c59879ead782e5c474e895befae616a715",
+    "weasisCoreImg": "4.13.0",
+    "weasisDicomTools": "5.34.3",
+    "felixFramework": "7.0.5",
+    "opencvNative": "4.13.0-dcm"
+  },
+  "slicePosition": 10
+}

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "genesis.oracle.v1",
+  "caseId": "G-P0-000",
+  "class": "ST",
+  "producer": "weasis-library",
+  "slicePosition": 10.0,
+  "cachedSlicePosition": 10.0,
+  "sliceStack": [0.0, 10.0, 20.0],
+  "splitRules": "library:org.weasis.dicom.codec.utils.SplittingRules"
+}
