@@ -1,0 +1,52 @@
+classLoader=weasis-core [19]
+== SeriesViewerFactory ==
+factory class=org.weasis.dicom.explorer.MimeSystemAppFactory uiName=Default System Application desc=Default System Application level=100 video/dicom=true image/dicom=false encap/dicom=true
+factory class=org.weasis.dicom.viewer2d.View2dFactory uiName=2D Viewer desc=2D Viewer level=5 video/dicom=false image/dicom=false encap/dicom=false
+factory class=org.weasis.dicom.viewer2d.mpr.MprFactory uiName=Oblique MPR desc=Oblique MPR level=15 video/dicom=false image/dicom=false encap/dicom=false
+factory class=org.weasis.dicom.sr.SRFactory uiName=DICOM SR Viewer desc=DICOM Structured Report level=25 video/dicom=false image/dicom=false encap/dicom=false
+factory class=org.weasis.dicom.au.AuFactory uiName=DICOM AU desc=DICOM Voice Audio Waveform level=35 video/dicom=false image/dicom=false encap/dicom=false
+factory class=org.weasis.dicom.wave.WaveFactory uiName=DICOM Waveform desc=DICOM Waveform level=35 video/dicom=false image/dicom=false encap/dicom=false
+factory class=org.weasis.base.viewer2d.ViewerFactory uiName=Image Viewer desc=Image Viewer level=5 video/dicom=false image/dicom=true encap/dicom=false
+factory class=org.weasis.dicom.viewer3d.View3DFactory uiName=3D Viewer desc=3D Viewer level=10 video/dicom=false image/dicom=false encap/dicom=false
+== Explorers ==
+explorer org.weasis.dicom.explorer.main.DicomExplorer ui=DICOM Explorer
+MediaSeriesGroupNode toString=__ROOT__ mime=null size=err:NoSuchMethodException
+  MediaSeriesGroupNode toString=GENESIS, PHANTOM mime=null size=err:NoSuchMethodException
+    MediaSeriesGroupNode toString=Jan 1, 2020 mime=null size=err:NoSuchMethodException
+      DicomSeries toString=1 mime=series/dicom size=err:NoSuchMethodException
+      DicomSeries toString= mime=ko/dicom size=err:NoSuchMethodException
+      DicomSeries toString=G0A KO ref CT mime=ko/dicom size=err:NoSuchMethodException
+  MediaSeriesGroupNode toString=G0A, SPLIT006 mime=null size=err:NoSuchMethodException
+    MediaSeriesGroupNode toString=G0A-SPLIT006 mime=null size=err:NoSuchMethodException
+      DicomSeries toString= mime=series/dicom size=err:NoSuchMethodException
+      DicomSeries toString=1 mime=series/dicom size=err:NoSuchMethodException
+  MediaSeriesGroupNode toString=G0A, MISS STU mime=null size=err:NoSuchMethodException
+    MediaSeriesGroupNode toString=Jan 1, 2020 mime=null size=err:NoSuchMethodException
+      DicomSeries toString= mime=series/dicom size=err:NoSuchMethodException
+  MediaSeriesGroupNode toString=G0A, MISS SER mime=null size=err:NoSuchMethodException
+    MediaSeriesGroupNode toString=Jan 1, 2020 mime=null size=err:NoSuchMethodException
+      DicomSeries toString= mime=series/dicom size=err:NoSuchMethodException
+  MediaSeriesGroupNode toString=G0A, MPEG2 mime=null size=err:NoSuchMethodException
+    MediaSeriesGroupNode toString=MPEG2 mime=null size=err:NoSuchMethodException
+      DicomVideoSeries toString= mime=video/dicom size=err:NoSuchMethodException
+  MediaSeriesGroupNode toString=G0A, MPEG4 mime=null size=err:NoSuchMethodException
+    MediaSeriesGroupNode toString=MPEG4 mime=null size=err:NoSuchMethodException
+      DicomVideoSeries toString= mime=video/dicom size=err:NoSuchMethodException
+== ViewerPlugins ==
+viewer class=org.weasis.dicom.viewer2d.View2dContainer name=GENESIS, PHANTOM dock=d41a065a-afb4-45ae-b3e1-64dc7175a60f
+viewer class=org.weasis.dicom.viewer2d.mpr.MprContainer name=GENESIS^PHANTOM dock=10fb81ab-a5d8-4274-8e50-01b7306a87c4
+viewer class=org.weasis.dicom.viewer2d.mpr.MprContainer name=GENESIS^PHANTOM dock=7a4da357-7160-4a4c-83de-8655c79c0c37
+viewer class=org.weasis.dicom.viewer2d.View2dContainer name=G0A, SPLIT006 dock=01255514-687e-432d-87e5-548a7c62120b
+viewer class=org.weasis.dicom.viewer2d.View2dContainer name=G0A, MISS STU dock=e4a18532-96b8-41bc-a200-40126e5759da
+viewer class=org.weasis.dicom.viewer2d.View2dContainer name=G0A, MISS SER dock=a943ba81-3c34-4df2-b06d-a6db229413a0
+== View3DFactory OpenGL ==
+opengl error java.lang.ClassNotFoundException: org.weasis.dicom.viewer3d.View3DFactory
+== Windows ==
+showing=true class=javax.swing.JFrame title=Weasis v4.7.0
+showing=false class=javax.swing.SwingUtilities$SharedOwnerFrame title=
+showing=false class=javax.swing.Popup$HeavyWeightWindow title=javax.swing.Popup$HeavyWeightWindow[win7,93,82,147x226,invalid,hidden,layout=java.awt.BorderLayout,rootPaneCheckingEnabled=true]
+showing=false class=javax.swing.Popup$HeavyWeightWindow title=javax.swing.Popup$HeavyWeightWindow[win8,1428,282,191x265,invalid,hidden,layout=java.awt.BorderLayout,rootPaneCheckingEnabled=true]
+showing=false class=javax.swing.Popup$HeavyWeightWindow title=javax.swing.Popup$HeavyWeightWindow[win9,1757,408,108x120,invalid,hidden,layout=java.awt.BorderLayout,rootPaneCheckingEnabled=true]
+== Explorer combo labels ==
+combo items=G0A, MISS SER | G0A, MISS STU | G0A, MPEG2 | G0A, MPEG4 | G0A, SPLIT006 | GENESIS, PHANTOM selected=G0A, MISS SER
+combo items=Jan 1, 2020 | All Studies selected=All Studies
