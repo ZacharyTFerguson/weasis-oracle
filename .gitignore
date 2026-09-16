@@ -1,0 +1,9 @@
+oracle/java/bundles/
+oracle/java/lib/
+/tmp/
+*.jar
+*.jar.xz
+.idea/
+*.iml
+corpus/phantoms/dicomdir-media/
+corpus/phantoms/G-P0-edge-gt2gb.dcm
