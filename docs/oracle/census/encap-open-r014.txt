@@ -1,0 +1,3 @@
+classLoader=weasis-core [19]
+extract=/tmp/weasis-ubuntu.BE65BCAB/cache/encap_268070780055639117.wav exists=true len=60
+startAssociatedProgramFromLinux invoked

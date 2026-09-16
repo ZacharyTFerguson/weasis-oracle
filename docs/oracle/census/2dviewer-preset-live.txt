@@ -1,0 +1,9 @@
+# Live 2D Viewer → Preset (G0A EVBE tab). Includes Lung.
+top=2D Viewer nested=Preset items=
+  Auto Level [Image]
+  Brain
+  Abdomen
+  Mediastinum
+  Bone
+  Lung
+  MIP

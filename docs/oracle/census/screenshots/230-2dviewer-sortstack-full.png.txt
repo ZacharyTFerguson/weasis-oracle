@@ -1,0 +1,9 @@
+top=2D Viewer nested=Sort Stack by items=
+  Instance Number
+  Anatomical Direction
+  Slice Location
+  Content Time
+  Acquisition Time
+  Diffusion b-value
+  SEP
+  Inverse Stack

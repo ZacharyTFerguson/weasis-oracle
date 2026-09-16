@@ -1,0 +1,4 @@
+classLoader=weasis-core [19]
+extract=/tmp/weasis-ubuntu.BE65BCAB/cache/video_5114729716266442391.mpg
+extract exists=true len=2048
+startAssociatedProgramFromLinux invoked

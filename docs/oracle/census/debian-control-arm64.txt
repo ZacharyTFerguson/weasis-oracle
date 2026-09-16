@@ -1,0 +1,10 @@
+Package: weasis
+Version: 4.7.0-1
+Section: science
+Maintainer: Weasis Team <Nicolas Roduit>
+Priority: optional
+Architecture: arm64
+Provides: weasis
+Description: Weasis DICOM viewer
+Depends: libc6, xdg-utils , libstdc++6, libgcc1
+Installed-Size: 151256

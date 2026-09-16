@@ -1,0 +1,12 @@
+MENU Help itemCount=11
+  Keyboard Shortcuts enabled=true
+  Online Help enabled=true
+  SEP
+  Check for Updates... enabled=true
+  Open the logging folder enabled=true
+  Submit a Bug Report enabled=true
+  SEP
+  Plugin licenses enabled=true
+  SEP
+  System resources enabled=true
+  About Weasis enabled=true
