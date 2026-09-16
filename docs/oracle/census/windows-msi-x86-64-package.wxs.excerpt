@@ -1,0 +1,17 @@
+# Frozen Weasis v4.7.0 SHA 3b3e46c59879ead782e5c474e895befae616a715
+# Source: weasis-distributions/script/resources/windows/msi/x86-64/main.wxs
+# WiX Package / InstallerVersion only. This is not a Windows 10 OS floor.
+
+  <?define JpInstallerVersion=200 ?>
+
+    <Package
+      Description="$(var.JpAppDescription)"
+      Manufacturer="$(var.JpAppVendor)"
+      InstallerVersion="$(var.JpInstallerVersion)"
+      Compressed="$(var.JpCompressedMsi)"
+      InstallScope="$(var.JpInstallScope)" Platform="x64"
+    />
+
+    <Feature Id="DefaultFeature" Title="!(loc.MainFeatureTitle)" Level="1">
+      <ComponentGroupRef Id="FragmentOsCondition"/>
+    </Feature>

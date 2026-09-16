@@ -1,0 +1,4 @@
+16.09.2026 06:38:14.273 *ERROR* [AWT-EventQueue-0] o.w.c.ui.editor.MimeSystemAppViewer: 'xdg-open' failed (exit 4) for /tmp/weasis-ubuntu.BE65BCAB/cache/encap_268070780055639117.wav
+16.09.2026 06:46:20.305 *ERROR* [AWT-EventQueue-0] o.w.c.ui.editor.MimeSystemAppViewer: 'xdg-open' failed (exit 4) for /tmp/weasis-ubuntu.BE65BCAB/cache/video_5114729716266442391.mpg
+16.09.2026 07:07:31.450 *INFO * [DicomModelLoader-1] org.weasis.dicom.explorer.LoadDicom: Adding patient: G0A, AUWAVE
+16.09.2026 07:07:31.491 *ERROR* [AWT-EventQueue-0] org.weasis.dicom.au.AuView: Build audio playerjava.lang.IllegalArgumentException: No line matching interface Clip supporting format PCM_SIGNED 8000.0 Hz, 16 bit, mono, 2 bytes/frame, little-endian is supported.

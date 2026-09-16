@@ -1,0 +1,17 @@
+# Frozen Weasis v4.7.0 SHA 3b3e46c59879ead782e5c474e895befae616a715
+# Source: weasis-distributions/script/resources/windows/msi/aarch64/main.wxs
+# Template exists in source. GitHub v4.7.0 did not ship an arm64 MSI.
+
+  <?define JpInstallerVersion=200 ?>
+
+    <Package
+      Description="$(var.JpAppDescription)"
+      Manufacturer="$(var.JpAppVendor)"
+      InstallerVersion="$(var.JpInstallerVersion)"
+      Compressed="$(var.JpCompressedMsi)"
+      InstallScope="$(var.JpInstallScope)" Platform="arm64"
+    />
+
+    <Feature Id="DefaultFeature" Title="!(loc.MainFeatureTitle)" Level="1">
+      <ComponentGroupRef Id="FragmentOsCondition"/>
+    </Feature>
