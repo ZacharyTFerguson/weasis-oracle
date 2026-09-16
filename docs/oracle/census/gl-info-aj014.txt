@@ -1,0 +1,21 @@
+core=weasis-core [19]
+v3d=weasis-dicom-viewer3d [4]
+opengl.enable=false
+opengl.prev.init=false
+GraphicsInfo.before=Optional.empty
+forced opengl.enable=true and cleared openGLInfo
+getOpenGLInfo=OpenGLInfo[shortVersion=4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.1, version=4.5 (Core profile, arb, compat[ES2, ES3, ES31, ES32], FBO, software) - 4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.1, vendor=Mesa, renderer=llvmpipe (LLVM 20.1.2, 256 bits), max3dTextureSize=2048]
+  vendor=Mesa
+  renderer=llvmpipe (LLVM 20.1.2, 256 bits)
+  version=4.5 (Core profile, arb, compat[ES2, ES3, ES31, ES32], FBO, software) - 4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.1
+  shortVersion=4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.1
+  max3dTextureSize=2048
+  looksSoftware=true
+isOpenglEnable=false
+GraphicsInfo.after=Optional[Gpu[vendor=Mesa, renderer=llvmpipe (LLVM 20.1.2, 256 bits), glVersion=4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.1, softwareRendered=true]]
+  vendor=Mesa
+  renderer=llvmpipe (LLVM 20.1.2, 256 bits)
+  glVersion=4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.1
+  softwareRendered=true
+opengl.enable after=false
+opengl.prev.init after=false

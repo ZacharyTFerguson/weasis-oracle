@@ -1,0 +1,10 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JaCoCo Coverage Report,default,SeriesSplitHarness.Loaded,0,24,0,0,0,9,0,1,0,1
+JaCoCo Coverage Report,default,SeriesSplitHarness,43,662,17,55,12,132,18,27,1,8
+JaCoCo Coverage Report,default,CanonicalHeader,84,265,12,14,19,57,9,8,0,4
+JaCoCo Coverage Report,default,DualRunDriver,13,110,2,2,4,13,3,2,1,2
+JaCoCo Coverage Report,default,SeriesSplitHarness.MapReader,66,21,6,0,23,7,22,2,19,2
+JaCoCo Coverage Report,default,HeaderDump,19,211,5,13,6,52,6,7,1,3
+JaCoCo Coverage Report,default,SlicePositionHarness,26,225,4,8,6,30,5,4,1,2
+JaCoCo Coverage Report,default,DumpMain,52,821,18,34,12,157,17,19,0,9
+JaCoCo Coverage Report,default,Json,49,51,10,8,9,11,10,3,0,2

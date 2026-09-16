@@ -1,0 +1,12 @@
+# Unique-UID MPEG via gogo dicom:get -l on AppLauncher PID 122169 (DISPLAY=:1, base-shell-noupdate.json)
+# Files: /tmp/census-unique/mpeg2.dcm  /tmp/census-unique/mpeg4.dcm
+# Hashed originals remain corpus/phantoms/G-P0-codec-mpeg2.dcm and G-P0-codec-mpeg4.dcm
+
+16.09.2026 06:06:39.689 *INFO * [DicomModelLoader-1] org.weasis.dicom.explorer.LoadDicom: Adding patient: G0A, MPEG2
+16.09.2026 06:06:39.696 *INFO * [AWT-EventQueue-0] o.w.d.explorer.main.DicomExplorer: Add series: 
+16.09.2026 06:06:39.696 *INFO * [AWT-EventQueue-0] o.w.d.explorer.main.DicomExplorer: Add series: 
+16.09.2026 06:06:39.721 *INFO * [AWT-EventQueue-0] org.weasis.dicom.explorer.LoadDicom: End of loading DICOM locally
+16.09.2026 06:06:48.093 *INFO * [DicomModelLoader-1] org.weasis.dicom.explorer.LoadDicom: Adding patient: G0A, MPEG4
+16.09.2026 06:06:48.097 *INFO * [AWT-EventQueue-0] o.w.d.explorer.main.DicomExplorer: Add series: 
+16.09.2026 06:06:48.098 *INFO * [AWT-EventQueue-0] o.w.d.explorer.main.DicomExplorer: Add series: 
+16.09.2026 06:06:48.126 *INFO * [AWT-EventQueue-0] org.weasis.dicom.explorer.LoadDicom: End of loading DICOM locally
