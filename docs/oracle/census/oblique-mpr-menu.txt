@@ -1,0 +1,81 @@
+MENU Oblique MPR itemCount=0
+  JMenu Preset
+    Auto Level [Image]
+    Brain
+    Abdomen
+    Mediastinum
+    Bone
+    Lung
+    MIP
+  JMenu LUT Shape
+    Linear
+    Sigmoid
+    Sigmoid Normalize
+    Logarithmic
+    Logarithmic Inverse
+  JMenu LUT
+    Default (image)
+    Cardiac
+    Fire
+    Flow
+    GE Color
+    Gray
+    Gray Rainbow
+    Hot Green
+    Hot Iron
+    Hot Metal
+    Hue 1
+    Hue 2
+    Ice
+    Ired
+    NIH
+    Rainbow 1
+    Rainbow 2
+    Rainbow 3
+    Rainbow 4
+    Rainbow 5
+    Ratio
+    Spectrum
+    Stern
+    Ucla
+    VR Bones
+    VR Muscles-Bones
+    VR Red Vessels
+  JCheckBoxMenuItem Invert LUT
+  JMenu Filter
+    None
+    Mean (3x3)
+    Blur (3x3)
+    Blur more (3x3)
+    Sharpen (3x3)
+    Sharpen more (3x3)
+    Defocus (3x3)
+    Laplacian 1 (Edge) (3x3)
+    Laplacian 2 (Edge) (3x3)
+    Strong Edge (5x5)
+    Outline (5x5)
+    Emboss (3x3)
+    Gaussian (3x3)
+    Gaussian (5x5)
+    Gaussian (7x7)
+    Gaussian (9x9)
+    Gaussian2 (3x3)
+    Gaussian2 (5x5)
+    Gaussian2 (7x7)
+  SEP
+  JMenu Zoom
+    Actual pixel size
+    Resize to best fit
+  JMenu Orientation
+    Reset
+    90 (counterclockwise)
+    90 (clockwise)
+    180
+    SEP
+    Flip Horizontally (after rotation)
+  SEP
+  JMenu Reset
+    All
+    Window/Level
+    Zoom
+    Pan

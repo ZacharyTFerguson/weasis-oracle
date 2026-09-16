@@ -1,0 +1,39 @@
+# Live MPR MIP nested menus (AppLauncher 4.7.0, DISPLAY=:1)
+
+`MprView.showMprPopup` / `buildMipThicknessMenu`. Not 2D `MipMenu`.
+
+## MIP thickness (`213-mpr-mip-thickness.png`)
+
+1 (3 mm); 2 (5 mm); 3 (7 mm); 5 (11 mm); 7 (15 mm); 10 (21 mm); 15 (31 mm); 20 (41 mm); Reset thickness; Custom thickness.
+
+Labels are `(i * 2 + 1) * volume.minPixelRatio` (`MprView.buildMipThicknessMenu`), not slice spacing.
+
+## MPR Custom thickness (`214-mpr-custom-thickness.png`)
+
+JDialog title Custom thickness (348×136)
+Image Extension: JSpinner value=1
+Conversion:  1 pix = 3 mm
+Buttons: OK, Cancel
+Spinner max = volume.getSliceSize(). Closed with Cancel.
+
+## All views (`215-mpr-all-views.png`)
+
+Center Ctrl+Alt+X; Show center of crosshair Ctrl+Alt+C; Show crosshair Ctrl+Alt+V (checked); MIP type; MIP thickness; Build three series from MPR views; Change MPR preferences.
+
+## MIP type (`216-mpr-mip-type.png`)
+
+None (selected); Min; Mean; Max.
+
+## Change MPR preferences (`217-change-mpr-prefs.png`)
+
+PreferenceDialog on MPR page.
+Auto center axes: Never; Only when the center is hidden (selected); Always.
+Crosshair gap at the center: 40.
+Default layout: 3 views (left merged) selected; also right/top/bottom merged; 3 horizontal views.
+Restore default values; Apply; Close. Closed with Close.
+
+## Synchronize (`218-mpr-synchronize.png`)
+
+Series Scroll (checked); Pan; Zoom; Rotation; Flip; Window/Level; Spatial Unit; Apply to all views; Close.
+
+Do not tick G-P0-014.

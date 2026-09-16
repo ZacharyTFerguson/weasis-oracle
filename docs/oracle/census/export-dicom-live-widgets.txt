@@ -1,0 +1,32 @@
+WINDOW Update
+  label A new release is available. Do you want to download it?
+  btn text=Don't ask me again tip=null
+  btn text=Yes tip=null
+  btn text=No tip=null
+WINDOW Export DICOM
+  btn text= tip=null
+  btn text= tip=null
+  btn text= tip=null
+  btn text= tip=null
+  label Export to:
+  combo DICOM | DICOM ZIP | JPEG Lossy | JPEG XL | PNG | TIFF | JPEG 2000 selected=DICOM
+  btn text= tip=null
+  btn text=Options tip=null
+  btn text= tip=null
+  btn text= tip=null
+  btn text= tip=null
+  btn text= tip=null
+  btn text= tip=Online Help
+  btn text=Export tip=null
+  btn text=Export and Close tip=null
+  btn text=Close tip=null
+WINDOW Image Export Options
+  combo Keep original transfer syntax | Explicit VR Little Endian [1.2.840.10008.1.2.1] | JPEG Lossy (8 bits) [1.2.840.10008.1.2.4.50] | JPEG Lossy (12 bits) [1.2.840.10008.1.2.4.51] | JPEG Lossless [1.2.840.10008.1.2.4.70] | JPEG-LS Lossless [1.2.840.10008.1.2.4.80] | JPEG-LS Lossy (Near-Lossless) [1.2.840.10008.1.2.4.81] | JPEG 2000 (Lossless Only) [1.2.840.10008.1.2.4.90] | JPEG 2000 [1.2.840.10008.1.2.4.91] | JPEG XL Lossless [1.2.840.10008.1.2.4.110] | JPEG XL Recompression [1.2.840.10008.1.2.4.111] | JPEG XL [1.2.840.10008.1.2.4.112] selected=Keep original transfer syntax
+  btn text= tip=null
+  btn text=Transcode only uncompressed tip=null
+  btn text=Generate new unique identifiers tip=null
+  btn text=Include DICOMDIR tip=null
+  btn text=DICOM CD folders tip=null
+  btn text=Keep directory names tip=null
+  btn text=OK tip=null
+  btn text=Cancel tip=null

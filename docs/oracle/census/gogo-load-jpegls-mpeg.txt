@@ -1,0 +1,16 @@
+# LoadDicom lines from the running 4.7 AppLauncher (/tmp/weasis-gogo.log)
+# Unique-UID copies were sent via singleton so Study ID overlap would not hide a new tab.
+
+16.09.2026 02:04:40.734 *INFO * [DicomModelLoader-1] org.weasis.dicom.explorer.LoadDicom: Adding patient: G0A, JPEGLS
+16.09.2026 02:04:40.785 *DEBUG * [ImageLoader-3] org.weasis.dicom.codec.DicomMediaIO: Start reading dicom image frame: 0
+16.09.2026 02:04:40.807 *INFO * [AWT-EventQueue-0] org.weasis.dicom.explorer.LoadDicom: End of loading DICOM locally
+
+16.09.2026 02:04:44.105 *INFO * [DicomModelLoader-1] org.weasis.dicom.explorer.LoadDicom: Adding patient: G0A, JPEGLOSSLESS
+16.09.2026 02:04:44.124 *DEBUG * [ImageLoader-5] org.weasis.dicom.codec.DicomMediaIO: Start reading dicom image frame: 0
+16.09.2026 02:04:44.145 *INFO * [AWT-EventQueue-0] org.weasis.dicom.explorer.LoadDicom: End of loading DICOM locally
+
+16.09.2026 02:04:47.482 *INFO * [DicomModelLoader-1] org.weasis.dicom.explorer.LoadDicom: Adding patient: G0A, MPEG2
+16.09.2026 02:04:47.514 *INFO * [AWT-EventQueue-0] org.weasis.dicom.explorer.LoadDicom: End of loading DICOM locally
+
+16.09.2026 02:04:51.846 *INFO * [DicomModelLoader-1] org.weasis.dicom.explorer.LoadDicom: Adding patient: G0A, MPEG4
+16.09.2026 02:04:51.878 *INFO * [AWT-EventQueue-0] org.weasis.dicom.explorer.LoadDicom: End of loading DICOM locally
