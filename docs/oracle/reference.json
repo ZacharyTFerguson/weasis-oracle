@@ -1,0 +1,12 @@
+{
+  "weasisTag": "v4.7.0",
+  "weasisCommit": "3b3e46c59879ead782e5c474e895befae616a715",
+  "weasisCoreImg": "4.13.0",
+  "weasisDicomTools": "5.34.3",
+  "felixFramework": "7.0.5",
+  "opencvNative": "4.13.0-dcm",
+  "javaWeasisRequires": "25",
+  "source": "weasis-parent/pom.xml at v4.7.0 plus git tag object",
+  "nativeDistro": "https://github.com/nroduit/Weasis/releases/download/v4.7.0/weasis-native.zip",
+  "note": "G-P0-001 pin. SHA-256 of weasis-native.zip and runtime jars: docs/oracle/producer-jar-pins.json (scripts/fetch-weasis-4.7-bundles.sh)."
+}
