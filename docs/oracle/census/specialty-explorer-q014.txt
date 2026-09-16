@@ -1,0 +1,78 @@
+classLoader=weasis-core [19]
+== SeriesViewerFactory ==
+factory class=org.weasis.dicom.explorer.MimeSystemAppFactory uiName=Default System Application desc=Default System Application level=100 video/dicom=true image/dicom=false encap/dicom=true au/dicom=false rt/dicom=false
+factory class=org.weasis.dicom.viewer2d.View2dFactory uiName=2D Viewer desc=2D Viewer level=5 video/dicom=false image/dicom=false encap/dicom=false au/dicom=false rt/dicom=false
+factory class=org.weasis.dicom.viewer2d.mpr.MprFactory uiName=Oblique MPR desc=Oblique MPR level=15 video/dicom=false image/dicom=false encap/dicom=false au/dicom=false rt/dicom=false
+factory class=org.weasis.dicom.sr.SRFactory uiName=DICOM SR Viewer desc=DICOM Structured Report level=25 video/dicom=false image/dicom=false encap/dicom=false au/dicom=false rt/dicom=false
+factory class=org.weasis.dicom.au.AuFactory uiName=DICOM AU desc=DICOM Voice Audio Waveform level=35 video/dicom=false image/dicom=false encap/dicom=false au/dicom=true rt/dicom=false
+factory class=org.weasis.dicom.wave.WaveFactory uiName=DICOM Waveform desc=DICOM Waveform level=35 video/dicom=false image/dicom=false encap/dicom=false au/dicom=false rt/dicom=false
+factory class=org.weasis.base.viewer2d.ViewerFactory uiName=Image Viewer desc=Image Viewer level=5 video/dicom=false image/dicom=true encap/dicom=false au/dicom=false rt/dicom=false
+factory class=org.weasis.dicom.viewer3d.View3DFactory uiName=3D Viewer desc=3D Viewer level=10 video/dicom=false image/dicom=false encap/dicom=false au/dicom=false rt/dicom=false
+== Explorers ==
+explorer org.weasis.dicom.explorer.main.DicomExplorer ui=DICOM Explorer
+MediaSeriesGroupNode toString=__ROOT__ mime=null size=err:NoSuchMethodException
+  MediaSeriesGroupNode toString=GENESIS, PHANTOM mime=null size=err:NoSuchMethodException
+    MediaSeriesGroupNode toString=Jan 1, 2020 mime=null size=err:NoSuchMethodException
+      DicomSeries toString=1 mime=series/dicom size=err:NoSuchMethodException
+      DicomSeries toString= mime=ko/dicom size=err:NoSuchMethodException
+      DicomSeries toString=G0A KO ref CT mime=ko/dicom size=err:NoSuchMethodException
+      DicomSeries toString= mime=rt/dicom size=err:NoSuchMethodException
+  MediaSeriesGroupNode toString=G0A, SPLIT006 mime=null size=err:NoSuchMethodException
+    MediaSeriesGroupNode toString=G0A-SPLIT006 mime=null size=err:NoSuchMethodException
+      DicomSeries toString= mime=series/dicom size=err:NoSuchMethodException
+      DicomSeries toString=1 mime=series/dicom size=err:NoSuchMethodException
+  MediaSeriesGroupNode toString=G0A, MISS STU mime=null size=err:NoSuchMethodException
+    MediaSeriesGroupNode toString=Jan 1, 2020 mime=null size=err:NoSuchMethodException
+      DicomSeries toString= mime=series/dicom size=err:NoSuchMethodException
+  MediaSeriesGroupNode toString=G0A, MISS SER mime=null size=err:NoSuchMethodException
+    MediaSeriesGroupNode toString=Jan 1, 2020 mime=null size=err:NoSuchMethodException
+      DicomSeries toString= mime=series/dicom size=err:NoSuchMethodException
+  MediaSeriesGroupNode toString=G0A, MPEG2 mime=null size=err:NoSuchMethodException
+    MediaSeriesGroupNode toString=MPEG2 mime=null size=err:NoSuchMethodException
+      DicomVideoSeries toString= mime=video/dicom size=err:NoSuchMethodException
+  MediaSeriesGroupNode toString=G0A, MPEG4 mime=null size=err:NoSuchMethodException
+    MediaSeriesGroupNode toString=MPEG4 mime=null size=err:NoSuchMethodException
+      DicomVideoSeries toString= mime=video/dicom size=err:NoSuchMethodException
+  MediaSeriesGroupNode toString=G0A, IMPLICIT mime=null size=err:NoSuchMethodException
+    MediaSeriesGroupNode toString=Jan 1, 2020 mime=null size=err:NoSuchMethodException
+      DicomSeries toString= mime=series/dicom size=err:NoSuchMethodException
+  MediaSeriesGroupNode toString=G0A, EVBE mime=null size=err:NoSuchMethodException
+    MediaSeriesGroupNode toString=Jan 1, 2020 mime=null size=err:NoSuchMethodException
+      DicomSeries toString= mime=series/dicom size=err:NoSuchMethodException
+  MediaSeriesGroupNode toString=G0A, SR mime=null size=err:NoSuchMethodException
+    MediaSeriesGroupNode toString= mime=null size=err:NoSuchMethodException
+      DicomSeries toString= mime=sr/dicom size=err:NoSuchMethodException
+  MediaSeriesGroupNode toString=G0A, ECG mime=null size=err:NoSuchMethodException
+    MediaSeriesGroupNode toString= mime=null size=err:NoSuchMethodException
+      DicomSeries toString= mime=wf/dicom size=err:NoSuchMethodException
+  MediaSeriesGroupNode toString=G0A, AU mime=null size=err:NoSuchMethodException
+    MediaSeriesGroupNode toString= mime=null size=err:NoSuchMethodException
+      DicomEncapDocSeries toString= mime=encap/dicom size=err:NoSuchMethodException
+  MediaSeriesGroupNode toString=G0A, RTSTRUCT mime=null size=err:NoSuchMethodException
+    MediaSeriesGroupNode toString= mime=null size=err:NoSuchMethodException
+      DicomSeries toString= mime=rt/dicom size=err:NoSuchMethodException
+  MediaSeriesGroupNode toString=G0A, AUWAVE mime=null size=err:NoSuchMethodException
+    MediaSeriesGroupNode toString=Jan 1, 2020 mime=null size=err:NoSuchMethodException
+      DicomSeries toString=1 mime=au/dicom size=err:NoSuchMethodException
+== ViewerPlugins ==
+viewer class=org.weasis.dicom.viewer2d.View2dContainer name=GENESIS, PHANTOM dock=d41a065a-afb4-45ae-b3e1-64dc7175a60f
+viewer class=org.weasis.dicom.viewer2d.mpr.MprContainer name=GENESIS^PHANTOM dock=10fb81ab-a5d8-4274-8e50-01b7306a87c4
+viewer class=org.weasis.dicom.viewer2d.mpr.MprContainer name=GENESIS^PHANTOM dock=7a4da357-7160-4a4c-83de-8655c79c0c37
+viewer class=org.weasis.dicom.viewer2d.View2dContainer name=G0A, SPLIT006 dock=01255514-687e-432d-87e5-548a7c62120b
+viewer class=org.weasis.dicom.viewer2d.View2dContainer name=G0A, MISS STU dock=e4a18532-96b8-41bc-a200-40126e5759da
+viewer class=org.weasis.dicom.viewer2d.View2dContainer name=G0A, MISS SER dock=a943ba81-3c34-4df2-b06d-a6db229413a0
+viewer class=org.weasis.dicom.viewer2d.View2dContainer name=G0A, IMPLICIT dock=bd599857-655c-469d-8fde-390b493a945c
+viewer class=org.weasis.dicom.viewer2d.View2dContainer name=G0A, EVBE dock=fc7d5554-788d-422e-8058-1bb46ab564aa
+viewer class=org.weasis.dicom.wave.WaveContainer name=G0A, ECG dock=68154fc2-9342-47cf-9239-73be6002ad41
+viewer class=org.weasis.dicom.sr.SRContainer name=G0A, SR dock=2e1b7793-5b91-4b06-95d9-9924180fe232
+viewer class=org.weasis.dicom.au.AuContainer name=G0A, AUWAVE dock=2756c9aa-e8d4-44c2-99be-cecd869fdbf1
+== View3DFactory OpenGL ==
+opengl error java.lang.ClassNotFoundException: org.weasis.dicom.viewer3d.View3DFactory
+== Windows ==
+showing=true class=javax.swing.JFrame title=Weasis v4.7.0
+showing=false class=javax.swing.SwingUtilities$SharedOwnerFrame title=
+showing=false class=javax.swing.Popup$HeavyWeightWindow title=javax.swing.Popup$HeavyWeightWindow[win7,93,82,183x304,invalid,hidden,layout=java.awt.BorderLayout,rootPaneCheckingEnabled=true]
+showing=false class=javax.swing.Popup$HeavyWeightWindow title=javax.swing.Popup$HeavyWeightWindow[win8,262,319,217x198,invalid,hidden,layout=java.awt.BorderLayout,rootPaneCheckingEnabled=true]
+== Explorer combo labels ==
+combo items=G0A, AU | G0A, AUWAVE | G0A, ECG | G0A, EVBE | G0A, IMPLICIT | G0A, MISS SER | G0A, MISS STU | G0A, MPEG2 | G0A, MPEG4 | G0A, SPLIT006 | G0A, SR | GENESIS, PHANTOM selected=G0A, AUWAVE
+combo items=Jan 1, 2020 | All Studies selected=All Studies
