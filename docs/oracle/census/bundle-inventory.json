@@ -1,0 +1,246 @@
+{
+  "weasis": "v4.7.0",
+  "count": 48,
+  "bundles": [
+    {
+      "name": "docking-frames-1.1.7.jar.xz",
+      "bytes": 1077916,
+      "sha256": "44e69270ccbab88dc9f686524c9d985af706d2c8af6864e4bb8954c673d5e7a0"
+    },
+    {
+      "name": "jackson-annotations-2.21.jar.xz",
+      "bytes": 35564,
+      "sha256": "af92b183b1f5d98184ac12a700e1b3ae38ec3bbe75f111c4f5ff3a6605569c21"
+    },
+    {
+      "name": "jackson-core-2.21.3.jar.xz",
+      "bytes": 316972,
+      "sha256": "da0faa783555a87dc8a5f896f5719171566079ca27be2e7073148900452372e3"
+    },
+    {
+      "name": "jackson-databind-2.21.3.jar.xz",
+      "bytes": 798664,
+      "sha256": "d1c34d08a949c50e9fc79f3e1b9166814651259c11997eb7b5b6b8c922c24080"
+    },
+    {
+      "name": "jaxb-osgi-4.0.3.jar.xz",
+      "bytes": 1160936,
+      "sha256": "e99734861f7eb3b52fd2cba3ba4ef49435d98a76992dd0218d5f1ff0932e2163"
+    },
+    {
+      "name": "jogamp-2.6.0.jar.xz",
+      "bytes": 4377120,
+      "sha256": "0cbbca45d0843c512f435fb2257440876326e90a1f173df0d6f5b401e88e5553"
+    },
+    {
+      "name": "jogamp-linux-aarch64-2.6.0.jar.xz",
+      "bytes": 183144,
+      "sha256": "638aff1a7bd40270c31744a508ab20e59e49eb1be8696fed672bfcea95dc3249"
+    },
+    {
+      "name": "jogamp-linux-x86-64-2.6.0.jar.xz",
+      "bytes": 184788,
+      "sha256": "c75889896cc443d44a85be9d47b9f80d88a0fe0ef26915ddaa54f8bd040d7aa9"
+    },
+    {
+      "name": "jogamp-macosx-aarch64-2.6.0.jar.xz",
+      "bytes": 295116,
+      "sha256": "ef0a0f3eff02d9f9d9ce37cebcc7fef3a75e4ead1da1058294cf39102700a87c"
+    },
+    {
+      "name": "jogamp-macosx-x86-64-2.6.0.jar.xz",
+      "bytes": 294700,
+      "sha256": "1b2afbd31e73b2c083a878c85d7ff84decf96b6aad842dee4712f5682659f42f"
+    },
+    {
+      "name": "jogamp-windows-x86-64-2.6.0.jar.xz",
+      "bytes": 162072,
+      "sha256": "4614d79784863a26fe309a6cb1662cabfd36548e0b45fe207d1c103079aa0ec7"
+    },
+    {
+      "name": "joml-1.10.8.jar.xz",
+      "bytes": 435028,
+      "sha256": "2f4fca666c4827c84a41023bf695959a4ef7bdd3cc849d732d812976b7d5738f"
+    },
+    {
+      "name": "miglayout-core-11.4.3.jar.xz",
+      "bytes": 82804,
+      "sha256": "c0ef5da539b89ade70d2dc6fe64656c8ff61d9b6be4914732c37699004bee82c"
+    },
+    {
+      "name": "miglayout-swing-11.4.3.jar.xz",
+      "bytes": 16764,
+      "sha256": "0538ae35eb41958fe9326157c66c42a8c340823660e468656e7a447066b5f5e1"
+    },
+    {
+      "name": "org.apache.felix.bundlerepository-2.0.10.jar.xz",
+      "bytes": 127768,
+      "sha256": "c399233ba0abb306a01a54869971ff83fe22b2de23135011f559c2773873e38e"
+    },
+    {
+      "name": "org.apache.felix.configadmin-1.9.26.jar.xz",
+      "bytes": 90104,
+      "sha256": "cd2767ceb50616f347ef03ab7f813fc7ea62ca24d037e61e7594d2900694c05c"
+    },
+    {
+      "name": "org.apache.felix.gogo.command-1.1.2.jar.xz",
+      "bytes": 28320,
+      "sha256": "1601de6e6951e5523fcc1e9aeb78c248284e1bbcbda57b42b24b24a03553dd4f"
+    },
+    {
+      "name": "org.apache.felix.gogo.runtime-1.1.6.jar.xz",
+      "bytes": 97884,
+      "sha256": "ead532c632b93d750e8afca0a0bff3e1ca3c7188c231a89fa6df9ea850be8518"
+    },
+    {
+      "name": "org.apache.felix.gogo.shell-1.1.4.jar.xz",
+      "bytes": 39420,
+      "sha256": "d6007bebbca3826da35f1c015fc657f5e23727ceba2cd0a68f102bbf2f9dc134"
+    },
+    {
+      "name": "org.apache.felix.prefs-1.1.0.jar.xz",
+      "bytes": 35952,
+      "sha256": "ce3de0c7942f6888010a70f3d7d05d02582e00cf44d88bae46fb358905639cb1"
+    },
+    {
+      "name": "org.apache.felix.scr-2.2.18.jar.xz",
+      "bytes": 218832,
+      "sha256": "1649635c7f45298e44f38708a8a015f201e097642428457beac8cf124f3eda88"
+    },
+    {
+      "name": "org.osgi.service.component-1.5.1.jar.xz",
+      "bytes": 20524,
+      "sha256": "bdd25be4851b6230655574e3e40d18f3304f132a37c1c37eeeac53b56e086838"
+    },
+    {
+      "name": "osgi.promise-8.1.0.jar.xz",
+      "bytes": 44984,
+      "sha256": "50ef392cc72e035d18a4db3d74934b9d3fda1fe8153b028b41c6f7287989b5d4"
+    },
+    {
+      "name": "weasis-acquire-editor-4.7.0.jar.xz",
+      "bytes": 30316,
+      "sha256": "1d9a23ac797bca5c91c2272a907bfc3583fdd07b865258437d00c332a665e9af"
+    },
+    {
+      "name": "weasis-acquire-explorer-4.7.0.jar.xz",
+      "bytes": 143688,
+      "sha256": "670d9f3d522e2b0755ab5277beec7becd66c4f562a07a2d5be73ecf61a8fb2ca"
+    },
+    {
+      "name": "weasis-base-explorer-4.7.0.jar.xz",
+      "bytes": 35092,
+      "sha256": "7cb387a0134f69f25c7a162d0f375830dcc1748ac48c787738f564ad8856d83b"
+    },
+    {
+      "name": "weasis-base-ui-4.7.0.jar.xz",
+      "bytes": 48000,
+      "sha256": "0f50318315cd05d3801071329671f8cbf2b27390e305532d2c2df363fb3cb868"
+    },
+    {
+      "name": "weasis-base-viewer2d-4.7.0.jar.xz",
+      "bytes": 53712,
+      "sha256": "f9d9c95bf70f58529abd5b8a211ece347037e9c85534fccaf8565794ede5ea3f"
+    },
+    {
+      "name": "weasis-core-4.7.0.jar.xz",
+      "bytes": 1283432,
+      "sha256": "2426927695eb84cbe8b11313d5ee2361552b38ee4b8777b4950f605c8a563016"
+    },
+    {
+      "name": "weasis-core-img-4.13.0.jar.xz",
+      "bytes": 155304,
+      "sha256": "1e7a0abb8d4f9bfcedf0be69bb78c6e97abd5df7e621f4987a3eaad4b71fd046"
+    },
+    {
+      "name": "weasis-dicom-au-4.7.0.jar.xz",
+      "bytes": 17064,
+      "sha256": "2028129f5c0e6978df8b6006a8ccdc6870ed5cc58e143c64f92060ec0bc94caf"
+    },
+    {
+      "name": "weasis-dicom-codec-4.7.0.jar.xz",
+      "bytes": 1167776,
+      "sha256": "baf9fcba1db3a341bbd0116d8fe2bb71de389643cb338f14f608d831f73f22ab"
+    },
+    {
+      "name": "weasis-dicom-explorer-4.7.0.jar.xz",
+      "bytes": 293536,
+      "sha256": "fb6d5748b8cab94313a411f0d44b41f21c8faeccab3e8a4cd2bbd5c2d3500124"
+    },
+    {
+      "name": "weasis-dicom-isowriter-4.7.0.jar.xz",
+      "bytes": 247192,
+      "sha256": "ee2b09a96ec3223a4774f0af0fb8a749f00631d19c21be1f33ebc57e778e2de4"
+    },
+    {
+      "name": "weasis-dicom-qr-4.7.0.jar.xz",
+      "bytes": 42068,
+      "sha256": "1a4b2fd098cdb4a803362627f9d127e5e1556d371dee7de9ae4edfdb41cc65e0"
+    },
+    {
+      "name": "weasis-dicom-rt-4.7.0.jar.xz",
+      "bytes": 58784,
+      "sha256": "db49c2bdd92e546930469220b61161ff4776d4b221f6a2adf9b1d5abeeed3784"
+    },
+    {
+      "name": "weasis-dicom-send-4.7.0.jar.xz",
+      "bytes": 12368,
+      "sha256": "2e5d75c23e06881c03c1ac3a1b9f3acbcb496bdd0726e727334ba1e0613a702d"
+    },
+    {
+      "name": "weasis-dicom-sr-4.7.0.jar.xz",
+      "bytes": 29844,
+      "sha256": "b15028f210f531833728d9f2d24073da2fd382e6d73d7c870d48f52dc4b42545"
+    },
+    {
+      "name": "weasis-dicom-viewer2d-4.7.0.jar.xz",
+      "bytes": 270272,
+      "sha256": "6911e604403c1ab73a9755054048b97de9e8b32c46f505f0b967653f22b7a7f1"
+    },
+    {
+      "name": "weasis-dicom-viewer3d-4.7.0.jar.xz",
+      "bytes": 150576,
+      "sha256": "019c3d26dfd62a9ebfcf2542fe7dafc9c4d8957e6d11c5431a8d258de8fa0674"
+    },
+    {
+      "name": "weasis-dicom-wave-4.7.0.jar.xz",
+      "bytes": 45248,
+      "sha256": "ceac681d7af01080b009d3de8660a10b90c42643247815a5b3f803c793ba6c7c"
+    },
+    {
+      "name": "weasis-imageio-codec-4.7.0.jar.xz",
+      "bytes": 2820,
+      "sha256": "8f764279b073800671d2f8d1201268065d6e652ee9e50d3c415ec0b9dcf84738"
+    },
+    {
+      "name": "weasis-opencv-core-linux-aarch64-4.13.0-dcm.jar.xz",
+      "bytes": 4904832,
+      "sha256": "15a1aac3bfef093f280e1b4e77b4e1ef27845df4e7733af250b6d666faa3a785"
+    },
+    {
+      "name": "weasis-opencv-core-linux-x86-64-4.13.0-dcm.jar.xz",
+      "bytes": 6300324,
+      "sha256": "0c9d98e9097de433845e06d1591190c1fd7d346bbe3785f94380c4f36eb4f5e6"
+    },
+    {
+      "name": "weasis-opencv-core-macosx-aarch64-4.13.0-dcm.jar.xz",
+      "bytes": 3921460,
+      "sha256": "e160bf2b0664769102e47927e53abe0df914a9ef7a9a65211ec03bb4cc7619e1"
+    },
+    {
+      "name": "weasis-opencv-core-macosx-x86-64-4.13.0-dcm.jar.xz",
+      "bytes": 5163620,
+      "sha256": "f4dec04ea0f00f39db15981430f345de0aa2868af8538e458531a87e185dd2b4"
+    },
+    {
+      "name": "weasis-opencv-core-windows-x86-64-4.13.0-dcm.jar.xz",
+      "bytes": 4464636,
+      "sha256": "1825199994381306a33857c22a91b503c57ae930327beadeadd0162df59409f5"
+    },
+    {
+      "name": "zip4j-2.11.6.jar.xz",
+      "bytes": 108236,
+      "sha256": "1b20e7f7472482dba73095f317d857b6f1e627ad56e81833b645257968eb7f87"
+    }
+  ]
+}
