@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "genesis.oracle.v1",
+  "caseId": "G-P0-000",
+  "class": "ST",
+  "producer": "weasis-library-splitting-rules",
+  "splitEngine": "org.weasis.dicom.codec.utils.SplittingRules",
+  "dicomMediaIoFileImport": "felix-required (GuiUtils/UICore)",
+  "role": "predicate-snapshot-not-grouping-oracle",
+  "groupingOracle": "corpus/goldens/G-P0-000-felix.json applySplittingRules",
+  "files": [
+    {"file":"G-P0-phantom-ct-01.dcm","modality":"CT","seriesUid":"1.2.826.0.1.3680043.10.541.1.2","sop":"1.2.826.0.1.3680043.10.541.1.2.1","convolutionKernel":""},
+    {"file":"G-P0-phantom-ct-02.dcm","modality":"CT","seriesUid":"1.2.826.0.1.3680043.10.541.1.2","sop":"1.2.826.0.1.3680043.10.541.1.2.2","convolutionKernel":""},
+    {"file":"G-P0-split-bone.dcm","modality":"CT","seriesUid":"1.2.826.0.1.3680043.10.541.1.2","sop":"1.2.826.0.1.3680043.10.541.1.2.99","convolutionKernel":"BONE"}
+  ],
+  "groups": [
+    ["G-P0-phantom-ct-01.dcm", "G-P0-phantom-ct-02.dcm"],
+    ["G-P0-split-bone.dcm"]
+  ]
+}
