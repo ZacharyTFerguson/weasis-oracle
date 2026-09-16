@@ -1,0 +1,10 @@
+# LoadDicom lines from the running 4.7 AppLauncher (/tmp/weasis-gogo.log)
+# Unique-UID copies via gogo `dicom:get -l` so Study overlap would not hide a new tab.
+
+16.09.2026 02:29:18.667 *INFO * [DicomModelLoader-1] org.weasis.dicom.explorer.LoadDicom: Adding patient: G0A, RLE
+16.09.2026 02:29:18.718 *INFO * [AWT-EventQueue-0] org.weasis.dicom.explorer.LoadDicom: End of loading DICOM locally
+
+16.09.2026 02:29:23.678 *INFO * [DicomModelLoader-1] org.weasis.dicom.explorer.LoadDicom: Adding patient: G0A, DEFLATE
+16.09.2026 02:29:23.713 *INFO * [AWT-EventQueue-0] org.weasis.dicom.explorer.LoadDicom: End of loading DICOM locally
+
+16.09.2026 02:32:55.052 *INFO * [DicomModelLoader-1] org.weasis.dicom.explorer.LoadDicom: Adding patient: G0A, JPEGEXT

@@ -1,0 +1,12 @@
+# LoadDicom from AppLauncher /tmp/weasis-gogo.log
+# Unique-UID copies via gogo `dicom:get -l` except JPEG-XL (original hashed file).
+
+16.09.2026 02:36:50.261 *INFO * [DicomModelLoader-1] org.weasis.dicom.explorer.LoadDicom: Adding patient: G0A, JPEGBASE
+16.09.2026 02:37:00.481 *INFO * [DicomModelLoader-1] org.weasis.dicom.explorer.LoadDicom: Adding patient: G0A, J2KIRR
+16.09.2026 02:37:10.689 *INFO * [DicomModelLoader-1] org.weasis.dicom.explorer.LoadDicom: Adding patient: G0A, J2KREV
+16.09.2026 02:37:31.125 *INFO * [DicomModelLoader-1] org.weasis.dicom.explorer.LoadDicom: Adding patient: G0A, PMAP
+16.09.2026 02:38:11.762 *INFO * [DicomModelLoader-1] org.weasis.dicom.explorer.LoadDicom: Adding patient: GENESIS, PHANTOM
+
+# JPEG-XL evidence is corpus/phantoms/G-P0-codec-jpegxl.dcm
+# TransferSyntaxUID 1.2.840.10008.1.2.4.110 (dcmdump). Do not use a dcmodify copy:
+# dcmodify rewrote that object to Explicit VR LE.

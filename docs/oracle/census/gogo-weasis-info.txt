@@ -1,0 +1,25 @@
+# Live weasis:info (G-P0-014, unsigned)
+
+AppLauncher 4.7.0 + conf/base-shell.json, telnetd 127.0.0.1:17179, DISPLAY=:1.
+
+$ weasis:info -v
+4.7.0
+
+$ weasis:info -a
+  Weasis 4.7.0
+  Installation path: /home/ubuntu/.weasis
+  Path for temporary files: /tmp/weasis-ubuntu.BE65BCAB
+  Profile: default
+  User: ubuntu
+  OSGI native specs: linux-x86-64
+  Operating system: Linux 6.12.94+ amd64
+  Java vendor: Eclipse Adoptium
+  Java version: 25.0.4.1
+  Java Path: /home/ubuntu/jdk/jdk-25.0.4.1+1
+
+Installation path matches the runtime overlay
+/home/ubuntu/.weasis/preferences/ubuntu/default/weasis.properties
+(see weasis-properties-runtime.txt).
+
+cm:listConfigurations "(service.pid=*)" and cm:listConfigurations null printed
+no rows on this run (empty CM store; prefs live in the overlay file).

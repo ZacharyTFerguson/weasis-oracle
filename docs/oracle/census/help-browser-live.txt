@@ -1,0 +1,14 @@
+# Live Help browser targets (AppLauncher 4.7.0, DISPLAY=:1)
+
+`WeasisWin` Help items that call `openBrowser`. Chrome restore / “Can't update” / default-browser overlays are this VM, not Weasis.
+
+| Shot | Menu item | URL opened |
+| --- | --- | --- |
+| `173-help-shortcuts.png` | Keyboard Shortcuts | generated ShortcutManager HTML (local temp file) |
+| `211-updates-after-click.png` | Check for Updates... | `https://weasis.org/en/getting-started/download-dicom-viewer/` because 4.7.0 < published v4.7.3 |
+| `219-online-help.png` | Online Help | `https://weasis.org/en/tutorials/` (`weasis.help.online`) |
+| `220-bug-report.png` | Submit a Bug Report | `https://github.com/nroduit/Weasis/issues` (hardcoded in `WeasisWin`) |
+
+No User's Guide item: `weasis.help.url` unset (`210-help-menu.png`). Logging folder is Thunar (`131-log-folder.png`), not a browser.
+
+Do not tick G-P0-014.
