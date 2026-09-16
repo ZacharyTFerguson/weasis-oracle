@@ -1,0 +1,19 @@
+# Live Image Histogram → Statistics (AppLauncher 4.7.0, DISPLAY=:1)
+
+`HistogramView` button Statistics opens `JOptionPane.showMessageDialog` (PLAIN_MESSAGE, OK).
+
+`207-histogram-stats.png` on G-P0-phantom-ct (MIP Max view + Image Histogram layout):
+
+| Parameter | Value |
+| --- | --- |
+| Pixels [pix] | 256 |
+| Min [HU] | 0 |
+| Max [HU] | 255 |
+| Median [HU] | 128 |
+| Mean [HU] | 127.5 |
+| StDev | 74.05 |
+| Skewness | 0 |
+| Kurtosis | -1.2 |
+| Entropy | 8 |
+
+Closed with OK. Do not tick G-P0-014.

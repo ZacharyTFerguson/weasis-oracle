@@ -1,0 +1,9 @@
+doClick Load RT enabled=true
+clicked=true
+combo items=12 [G0A, AU] [G0A, AUWAVE] [G0A, ECG] [G0A, EVBE] [G0A, IMPLICIT] [G0A, MISS SER] [G0A, MISS STU] [G0A, MPEG2] [G0A, MPEG4] [G0A, SPLIT006] [G0A, SR] [GENESIS, PHANTOM]
+combo items=2 [Jan 1, 2020] [All Studies]
+combo items=13 [pixels] [nanometers] [micrometers] [millimeters] [centimeters] [meters] [kilometers] [microinches] [milli-inches] [inches] [feet] [yards] [miles]
+btn Load RT enabled=false
+combo items=1 [PHANTOM]
+combo items=0
+btn Display DVH chart enabled=true

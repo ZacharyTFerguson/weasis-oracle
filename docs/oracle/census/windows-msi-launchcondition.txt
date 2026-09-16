@@ -1,0 +1,12 @@
+# Extracted from GitHub asset Weasis-4.7.0-x86-64.msi
+# size 51085312
+# sha256 b429756f9282dd9bec45dcd669ff83ba5f28c91ca73a36ef049f23ae749de7ea
+# tag v4.7.0  2026-05-28
+# ASCII string table (not UTF-16). No "Windows 10" / "Windows 11" string in the MSI.
+
+LaunchCondition
+Installed OR (VersionNT >= 600)
+[ProductName][ProductVersion] is not supported on this version of Windows
+
+# VersionNT 600 is Windows Vista / Server 2008. This is the jpackage-injected
+# FragmentOsCondition, not a Weasis source floor, and it is not Windows 10.

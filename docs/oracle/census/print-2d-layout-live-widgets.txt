@@ -1,0 +1,12 @@
+# Live Swing dump — PrintDialog (AppLauncher 4.7.0, DISPLAY=:1)
+
+SHOW org.weasis.core.ui.util.PrintDialog title=Print 2D viewer layout size=279x214 loc=816,521 modal=APPLICATION_MODAL
+  label Image position: showing=true
+  combo selected=Centralized
+  label Image DPI: showing=true
+  combo selected=150
+  btn text=Print image with annotations
+  btn text=Print
+  btn text=Cancel
+
+# Print only the selected view is absent: 1-cell layout.

@@ -1,0 +1,24 @@
+
+xwininfo: Window id: 0x1e00024 "genesis-mpeg-open"
+
+  Absolute upper-left X:  691
+  Absolute upper-left Y:  587
+  Relative upper-left X:  1
+  Relative upper-left Y:  28
+  Width: 536
+  Height: 52
+  Depth: 24
+  Visual: 0x21
+  Visual Class: TrueColor
+  Border width: 0
+  Class: InputOutput
+  Colormap: 0x20 (installed)
+  Bit Gravity State: NorthWestGravity
+  Window Gravity State: NorthWestGravity
+  Backing Store State: NotUseful
+  Save Under State: no
+  Map State: IsViewable
+  Override Redirect State: no
+  Corners:  +691+587  -693+587  -693-561  +691-561
+  -geometry 536x52+691+587
+
