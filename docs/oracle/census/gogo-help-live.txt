@@ -1,0 +1,139 @@
+# Live gogo help — Weasis 4.7.0 + shipped conf/base-shell.json
+
+Default GUI (conf/base.json) does not auto-start org.apache.felix.gogo.shell, so -Dgosh.port=17179 never binds.
+This transcript is from the same 4.7 bundles with felix.extended.config.properties=file:conf/base-shell.json
+(gogo.command 1.1.2, gogo.runtime 1.1.6, gogo.shell 1.1.4 ACTIVE). telnetd 127.0.0.1:17179.
+
+## $ help
+
+cm:createFactoryConfiguration
+cm:getConfiguration
+cm:getFactoryConfiguration
+cm:listConfigurations
+dcmview2d:layout
+dcmview2d:mouseLeftAction
+dcmview2d:move
+dcmview2d:reset
+dcmview2d:scroll
+dcmview2d:synch
+dcmview2d:wl
+dcmview2d:zoom
+dicom:close
+dicom:get
+dicom:rs
+felix:bundlelevel
+felix:cd
+felix:frameworklevel
+felix:headers
+felix:help
+felix:inspect
+felix:install
+felix:lb
+felix:log
+felix:ls
+felix:refresh
+felix:resolve
+felix:start
+felix:stop
+felix:uninstall
+felix:update
+felix:which
+gogo:cat
+gogo:each
+gogo:echo
+gogo:format
+gogo:getopt
+gogo:gosh
+gogo:grep
+gogo:history
+gogo:not
+gogo:set
+gogo:sh
+gogo:source
+gogo:tac
+gogo:telnetd
+gogo:type
+gogo:until
+image:close
+image:get
+obr:deploy
+obr:info
+obr:javadoc
+obr:list
+obr:repos
+obr:source
+scr:config
+scr:disable
+scr:enable
+scr:info
+scr:list
+weasis:info
+weasis:ui
+
+## Usage (-?)
+
+$ dicom:get -?
+Load DICOM files remotely or locally
+Usage: dicom:get ([-l PATH]... [-w URI]... [-r URI]... [-p] [-i DATA]... [-z URI]...)
+PATH is either a directory(recursive) or a file
+  -l --local=PATH   open DICOMs from local disk
+  -r --remote=URI   open DICOMs from an URI
+  -w --wado=URI     open DICOMs from an XML manifest
+  -z --zip=URI      open DICOM ZIP from an URI
+  -p --portable     open DICOMs from configured directories at the same level of the executable
+  -i --iwado=DATA   open DICOMs from an XML manifest (GZIP-Base64)
+  -? --help         show help
+
+$ dicom:rs -?
+Load DICOM files from DICOMweb API (QIDO/WADO-RS)
+Usage: dicom:rs -u URL -r QUERYPARAMS... [-H HEADER]... [--query-header HEADER]... [--retrieve-header HEADER]... [--query-ext EXT] [--retrieve-ext EXT] [--accept-ext EXT]
+  -u --url=URL               URL of the DICOMweb service
+  -r --request=QUERYPARAMS   Query params of the URL, see weasis-pacs-connector
+  -H --header=HEADER         Pass custom header(s) to all the requests
+  --query-header=HEADER      Pass custom header(s) to the query requests (QIDO)
+  --retrieve-header=HEADER   Pass custom header(s) to the retrieve requests (WADO)
+  --query-ext=EXT            Additional parameters for Query URL (QIDO)
+  --retrieve-ext=EXT         Additional parameters for Retrieve URL (WADO)
+  --accept-ext=EXT           Additional parameters for DICOM multipart/related Accept header of the retrieve URL (WADO). Default value is: transfer-syntax=*
+  --auth-uid=UID             UID of the Weasis authentication method
+  --oidc-iss=UID             Issuer Identifier for OpenID Connect Authentication Request
+  --oidc-login=UID           Identifier the End-User might use to log in (OpenID Connect)
+  --show-whole-study         when downloading a series, show all the other series (ready for download) from the same study
+  -? --help                  show help
+
+$ dicom:close -?
+Close DICOM files
+Usage: dicom:close  (-a | ([-y UID]... [-s UID]...))
+  -a --all           close all the patients
+  -p --patient=ID    close a patient from its patient ID
+  -y --study=UID     close a study, UID is Study Instance UID
+  -s --series=UID    close a series, UID is Series Instance UID
+  -? --help          show help
+
+$ weasis:ui -?
+Manage user interface
+Usage: weasis:ui (-q | -v)
+  -q --quit        shutdown Weasis
+  -v --visible     set window on top
+  -m --minimized   minimize the window
+  -? --help        show help
+
+$ weasis:info -?
+Show information about Weasis
+Usage: weasis:info (-v | -a)
+  -v --version    show version
+  -a --all        show weasis specifications
+  -? --help       show help
+
+$ weasis:info -a
+Weasis 4.7.0
+  Installation path: /home/ubuntu/.weasis
+  Path for temporary files: /tmp/weasis-ubuntu.BE65BCAB
+  Profile: default
+  User: ubuntu
+  OSGI native specs: linux-x86-64
+  Operating system: Linux 6.12.94+ amd64
+  Java vendor: Eclipse Adoptium
+  Java version: 25.0.4.1
+  Java Path: /home/ubuntu/jdk/jdk-25.0.4.1+1
+
