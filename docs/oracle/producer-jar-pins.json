@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "genesis.oracle.v1",
+  "caseId": "G-P0-006-pins",
+  "source": "scripts/fetch-weasis-4.7-bundles.sh",
+  "files": {
+    "weasis-native.zip": {
+      "sha256": "bad1334c0ddfa1f381211879e83d37ae78621f573eab0edaff6e1adc217f4862",
+      "bytes": 43813853,
+      "url": "https://github.com/nroduit/Weasis/releases/download/v4.7.0/weasis-native.zip"
+    },
+    "flatlaf-3.7.1.jar": {
+      "sha256": "11f498f3c89596a782fceaa727c853a665067aeabc09bd682dc53b3ef237d0c7",
+      "bytes": 1010321
+    },
+    "jaxb-osgi-4.0.3.jar": {
+      "sha256": "726319be3bce37d8fda8da0b4a3b183770d77f4ab80533fa89286209f07940d2",
+      "bytes": 1359812
+    },
+    "joml-1.10.8.jar": {
+      "sha256": "f54b581caa7ece4bfc87cb169f4979b1a17c3023c2fdb6206df71d20f45a3909",
+      "bytes": 2048778
+    },
+    "slf4j-api-2.0.17.jar": {
+      "sha256": "7b751d952061954d5abfed7181c1f645d336091b679891591d63329c622eb832",
+      "bytes": 69908
+    },
+    "slf4j-simple-2.0.17.jar": {
+      "sha256": "ddfea59ac074c6d3e24ac2c38622d2d963895e17f70b38ed4bdae4d780be6964",
+      "bytes": 15716
+    },
+    "weasis-core-4.7.0.jar": {
+      "sha256": "4814edb93c9fe528fa124964f546f56f6aa2e51c0e488de45627016fe8761cd8",
+      "bytes": 3939957
+    },
+    "weasis-core-img-4.13.0.jar": {
+      "sha256": "1d54616c44d376015843961471c88c05f072f20522f856f6791d1184ab7c7912",
+      "bytes": 688000
+    },
+    "weasis-dicom-codec-4.7.0.jar": {
+      "sha256": "02b941c87d265b727a8b9353c851e7f7fc16efcfcdce8e8ee55b8d9bf477163c",
+      "bytes": 5020231
+    },
+    "weasis-launcher.jar": {
+      "sha256": "ce4f5893558b77d6783543de3867f88f8baa6e2d89d86f6f14c1b864be478a83",
+      "bytes": 3515407
+    },
+    "weasis-opencv-core-linux-x86-64-4.13.0-dcm.jar": {
+      "sha256": "ae3bb8d29c0e081211a1d83fd805283d749f704cc5ea93d81c6f41ffa4041960",
+      "bytes": 24441494
+    }
+  }
+}
