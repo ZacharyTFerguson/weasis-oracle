@@ -1,0 +1,38 @@
+core=weasis-core [19]
+viewer org.weasis.dicom.viewer2d.View2dContainer name=GENESIS, PHANTOM
+viewer org.weasis.dicom.viewer2d.mpr.MprContainer name=GENESIS^PHANTOM
+viewer org.weasis.dicom.viewer2d.mpr.MprContainer name=GENESIS^PHANTOM
+viewer org.weasis.dicom.viewer2d.View2dContainer name=G0A, SPLIT006
+viewer org.weasis.dicom.viewer2d.View2dContainer name=G0A, MISS STU
+viewer org.weasis.dicom.viewer2d.View2dContainer name=G0A, MISS SER
+viewer org.weasis.dicom.viewer2d.View2dContainer name=G0A, IMPLICIT
+viewer org.weasis.dicom.viewer2d.View2dContainer name=G0A, EVBE
+viewer org.weasis.dicom.wave.WaveContainer name=G0A, ECG
+viewer org.weasis.dicom.sr.SRContainer name=G0A, SR
+viewer org.weasis.dicom.au.AuContainer name=G0A, AUWAVE
+tools=4
+ tool org.weasis.dicom.viewer2d.View2dContainer$2 title=Mini Tool vis=true mode=ExtendedMode[modeIdentifier=dock.mode.normal]
+ tool org.weasis.dicom.viewer2d.dockable.DisplayTool title=Display vis=true mode=ExtendedMode[modeIdentifier=dock.mode.minimized]
+ tool org.weasis.dicom.viewer2d.dockable.ImageTool title=Image Tools vis=true mode=ExtendedMode[modeIdentifier=dock.mode.minimized]
+ tool org.weasis.core.ui.editor.image.dockable.MeasureTool title=Draw & Measure vis=true mode=ExtendedMode[modeIdentifier=dock.mode.normal]
+NO RtDisplayTool in tools
+control=bibliothek.gui.dock.common.CControl
+cDockableCount=18
+  c 0 CWorkingArea title= vis=true mode=ExtendedMode[modeIdentifier=dock.mode.normal]
+  c 1 DefaultSingleCDockable title=DICOM Explorer vis=true mode=ExtendedMode[modeIdentifier=dock.mode.normal]
+  c 2 DefaultSingleCDockable title=GENESIS, PHANTOM vis=true mode=ExtendedMode[modeIdentifier=dock.mode.normal]
+  c 3 DefaultSingleCDockable title=GENESIS^PHANTOM vis=true mode=ExtendedMode[modeIdentifier=dock.mode.normal]
+  c 4 DefaultSingleCDockable title=GENESIS^PHANTOM vis=true mode=ExtendedMode[modeIdentifier=dock.mode.normal]
+  c 5 DefaultSingleCDockable title=G0A, SPLIT006 vis=true mode=ExtendedMode[modeIdentifier=dock.mode.normal]
+  c 6 DefaultSingleCDockable title=G0A, MISS STU vis=true mode=ExtendedMode[modeIdentifier=dock.mode.normal]
+  c 7 DefaultSingleCDockable title=G0A, MISS SER vis=true mode=ExtendedMode[modeIdentifier=dock.mode.normal]
+  c 8 DefaultSingleCDockable title=G0A, IMPLICIT vis=true mode=ExtendedMode[modeIdentifier=dock.mode.normal]
+  c 9 DefaultSingleCDockable title=G0A, EVBE vis=true mode=ExtendedMode[modeIdentifier=dock.mode.normal]
+  c 10 DefaultSingleCDockable title=G0A, ECG vis=true mode=ExtendedMode[modeIdentifier=dock.mode.normal]
+  c 11 DefaultSingleCDockable title=G0A, SR vis=true mode=ExtendedMode[modeIdentifier=dock.mode.normal]
+  c 12 DefaultSingleCDockable title=G0A, AUWAVE vis=true mode=ExtendedMode[modeIdentifier=dock.mode.normal]
+  c 13 DefaultSingleCDockable title=Mini Tool vis=true mode=ExtendedMode[modeIdentifier=dock.mode.normal]
+  c 14 DefaultSingleCDockable title=Display vis=true mode=ExtendedMode[modeIdentifier=dock.mode.minimized]
+  c 15 DefaultSingleCDockable title=Image Tools vis=true mode=ExtendedMode[modeIdentifier=dock.mode.minimized]
+  c 16 DefaultSingleCDockable title=Draw & Measure vis=true mode=ExtendedMode[modeIdentifier=dock.mode.normal]
+  c 17 DefaultSingleCDockable title=RT Tool vis=true mode=ExtendedMode[modeIdentifier=dock.mode.minimized]

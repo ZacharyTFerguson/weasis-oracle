@@ -1,0 +1,48 @@
+# Live felix:lb — Weasis 4.7.0 AppLauncher + conf/base-shell-noupdate.json (gogo.shell ACTIVE).
+# 38 rows including System Bundle (not a shipped jar). Inventory is 48 xz files.
+# Not started here: 8 other-arch natives (jogamp/opencv macos/windows/linux-aarch64).
+# Not in default GUI: weasis-acquire-editor, weasis-acquire-explorer, weasis-base-explorer
+# (dicomizer.json / non-dicom-explorer.json). Remaining Linux amd64 GUI bundles are Active or Resolved.
+
+g! START LEVEL 130
+   ID|State      |Level|Name
+    0|Active     |    0|System Bundle (7.0.5)|7.0.5
+    1|Active     |   70|DICOM - Viewer (2D and MPR) [weasis-dicom-viewer2d] (4.7.0)|4.7.0
+    2|Active     |  110|DICOM - Send (DICOM and DICOMweb protocols) [weasis-dicom-send] (4.7.0)|4.7.0
+    3|Active     |   35|Jackson-annotations (2.21.0)|2.21.0
+    4|Active     |  120|3D Viewer [weasis-dicom-viewer3d] (4.7.0)|4.7.0
+    5|Resolved   |  121|JOGL - Linux x86-64 [jogamp-linux-x86-64] (2.6.0)|2.6.0
+    6|Active     |   10|Image processing (OpenCV) (4.13.0)|4.13.0
+    7|Active     |    3|Apache Felix Gogo Command (1.1.2)|1.1.2
+    8|Active     |    5|Apache Felix Configuration Admin Service (1.9.26)|1.9.26
+    9|Active     |  100|Base - Image viewer (non-DICOM) [weasis-base-viewer2d] (4.7.0)|4.7.0
+   10|Active     |    7|MiGLayout Swing (11.4.3)|11.4.3
+   11|Active     |   40|DICOM - Data explorer [weasis-dicom-explorer] (4.7.0)|4.7.0
+   12|Active     |   10|Docking Frames (one fat jar) (1.1.7)|1.1.7
+   13|Active     |   75|DICOM - Audio Player [weasis-dicom-au] (4.7.0)|4.7.0
+   14|Active     |    4|org.osgi:osgi.promise (8.1.0.202212101352)|8.1.0.202212101352
+   15|Active     |  120|JOGL - Java Bindings for OpenGL [jogamp] (2.6.0)|2.6.0
+   16|Active     |    4|Apache Felix Bundle Repository (2.0.10)|2.0.10
+   17|Active     |   30|DICOM - Codecs and parsers for DICOM [weasis-dicom-codec] (4.7.0)|4.7.0
+   18|Active     |   35|jackson-databind (2.21.3)|2.21.3
+   19|Active     |   12|Core [weasis-core] (4.7.0)|4.7.0
+   20|Active     |  110|DICOM - Export ISO image [weasis-dicom-isowriter] (4.7.0)|4.7.0
+   21|Active     |    1|Apache Felix Gogo Runtime (1.1.6)|1.1.6
+   22|Active     |  110|DICOM - Query/Retrieve [weasis-dicom-qr] (4.7.0)|4.7.0
+   23|Active     |  115|DICOM - Viewer for RTs (radiotherapy) [weasis-dicom-rt] (4.7.0)|4.7.0
+   24|Active     |   70|DICOM - Viewer of DICOM Structured Report [weasis-dicom-sr] (4.7.0)|4.7.0
+   25|Resolved   |   23|OpenCV - Linux amd64 [weasis-opencv-core-linux-x86-64] (4.13.0.dcm)|4.13.0.dcm
+   26|Active     |    5|Apache Felix Preferences Service (1.1.0)|1.1.0
+   27|Active     |   15|ImageIO codecs [weasis-imageio-codec] (4.7.0)|4.7.0
+   28|Active     |   60|Base UI [weasis-base-ui] (4.7.0)|4.7.0
+   29|Active     |   75|DICOM - Viewer for ECGs [weasis-dicom-wave] (4.7.0)|4.7.0
+   30|Active     |   10|JOML (1.10.8)|1.10.8
+   31|Active     |   35|Jackson-core (2.21.3)|2.21.3
+   32|Active     |    7|MiGLayout Core (11.4.3)|11.4.3
+   33|Active     |    5|Apache Felix Declarative Services (2.2.18)|2.2.18
+   34|Active     |    7|jaxb package for weasis (4.0.3)|4.0.3
+   35|Active     |    5|org.osgi:org.osgi.service.component (1.5.1.202212101352)|1.5.1.202212101352
+   36|Active     |   10|Zip4j (2.11.6)|2.11.6
+   37|Active     |    3|Apache Felix Gogo Shell (1.1.4)|1.1.4
+
+g! 
