@@ -1,0 +1,34 @@
+# Runtime weasis.properties overlay after Felix boot (G-P0-014, unsigned)
+
+Source (live AppLauncher PID, HOME=/home/ubuntu, DISPLAY=:1, base-shell.json):
+/home/ubuntu/.weasis/preferences/ubuntu/default/weasis.properties
+
+SHA-256: 580e6cde1dcaa40d1974eb3607c1583432f45a6e25f827422879218109b90323
+
+Also dumped live via gogo `cat` on 127.0.0.1:17179 (same bytes).
+
+This is the user-profile overlay, not the 114 shipped `conf/*.json` keys in
+docs/oracle/weasis-properties.json. Do not tick G-P0-014.
+
+--- file ---
+#Tue Sep 15 23:52:36 UTC 2026
+default.vr.orientation=INITIAL
+explorer.thumbnail.size=144
+flatlaf.uiScale=-1
+locale.format.code=en
+locale.lang.code=en
+mpr.default.layout=mpr1
+org.apache.sling.commons.log.file=
+org.apache.sling.commons.log.file.activate=false
+org.apache.sling.commons.log.file.number=20
+org.apache.sling.commons.log.file.size=10MB
+org.apache.sling.commons.log.level=INFO
+org.apache.sling.commons.log.stack.limit=3
+volume.default.layout=vr
+weasis.confirm.closing=false
+weasis.download.immediately=true
+weasis.linux.windows.decoration=false
+weasis.show.unsupported.sop.class.info=true
+weasis.sorting.study.date=1
+weasis.theme=org.weasis.launcher.FlatWeasisTheme
+weasis.use.system.file.chooser=true
