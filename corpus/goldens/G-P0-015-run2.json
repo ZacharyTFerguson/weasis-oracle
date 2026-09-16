@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "genesis.oracle.v1",
+  "caseId": "G-P0-015",
+  "class": "ST",
+  "reference": {
+    "weasisTag": "v4.7.0",
+    "weasisCommit": "3b3e46c59879ead782e5c474e895befae616a715",
+    "weasisCoreImg": "4.13.0",
+    "weasisDicomTools": "5.34.3",
+    "felixFramework": "7.0.5",
+    "opencvNative": "4.13.0-dcm"
+  },
+  "platform": {
+    "os": "Linux",
+    "arch": "amd64",
+    "jdk": "25.0.4.1+1-LTS"
+  },
+  "sortKey": {
+    "api": "org.weasis.dicom.codec.SortSeriesStack",
+    "producer": "weasis-library",
+    "comparators": ["Instance Number", "Anatomical Direction", "Slice Location", "Content Time", "Acquisition Time", "Diffusion b-value"],
+    "pairs": [
+    {"id": "instanceNumber_low_high", "key": "instanceNumber", "cmp": -1},
+    {"id": "instanceNumber_high_low", "key": "instanceNumber", "cmp": 1},
+    {"id": "instanceNumber_equal", "key": "instanceNumber", "cmp": 0},
+    {"id": "instanceNumber_null_left", "key": "instanceNumber", "cmp": 0},
+    {"id": "slicePosition_back_front", "key": "slicePosition", "cmp": -1},
+    {"id": "slicePosition_null_left", "key": "slicePosition", "cmp": 0},
+    {"id": "sliceLocation_low_high", "key": "sliceLocation", "cmp": -1},
+    {"id": "contentTime_early_late", "key": "contentTime", "cmp": -1},
+    {"id": "acquisitionTime_early_late", "key": "acquisitionTime", "cmp": -1},
+    {"id": "diffusionBValue_b0_b1000", "key": "diffusionBValue", "cmp": -1}
+  ]
+  }
+}
