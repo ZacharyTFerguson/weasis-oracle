@@ -1,0 +1,23 @@
+# Live 2D MipMenu (AppLauncher 4.7.0, DISPLAY=:1)
+
+Toolbar tooltip **Build MIP from the selected view** with a 2D canvas selected (`Basic3DToolBar.getMipAction` → `MipMenu.showPopup`). Not the MPR-context popup (`203`).
+
+## Projection panel (titled Projection)
+
+None (default); Min; Mean; Max
+
+`204-mip-2d-menu.png`: None selected; MIP thickness and Build a new Series disabled.
+
+`205-mip-2d-max.png`: Max selected; MIP thickness enabled; Build a new Series enabled. Overlay Thickness 31 mm / Location 20 mm.
+
+## MIP thickness (`206-mip-2d-thickness.png`)
+
+1 (33 mm); 2 (55 mm) selected; 3 (77 mm); 5 (121 mm); 7 (165 mm); 10 (231 mm); 15 (341 mm); 20 (451 mm); Custom thickness
+
+Labels are `(size * 2 + 1) * sliceThickness` from `MipMenu.buildSizeLabel` on this 6-slice phantom.
+
+`212-mip-custom-thickness.png`: `showCustomThicknessDialog` — Image Extension spinner value 2 = 55 mm, OK / Cancel. Range 1..3 (`series.size/2`). [mip-custom-thickness-live.txt](mip-custom-thickness-live.txt)
+
+## Rebuild
+
+Build a new Series — enabled only when projection ≠ None.
