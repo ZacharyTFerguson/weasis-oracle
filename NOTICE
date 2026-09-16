@@ -1,0 +1,18 @@
+weasis-oracle
+Copyright 2026 Zachary Ferguson and contributors
+
+This product includes derived leaf algorithms from Weasis (https://weasis.org/),
+taken under the Apache License 2.0 option of Weasis's dual EPL-2.0 OR Apache-2.0
+license.
+
+  Weasis — Copyright the Weasis Team and other contributors
+  https://github.com/nroduit/Weasis
+  SPDX-License-Identifier: EPL-2.0 OR Apache-2.0
+
+Derived here (not a clean-room claim):
+  internal/oracle slice-position / image-normal / dominant-axis orientation
+  internal/oracle sort-key comparators (Weasis SortSeriesStack)
+
+Census screenshots and Felix dumps are behavioral fixtures from running
+Weasis 4.7.0 (tag v4.7.0, SHA 3b3e46c59879ead782e5c474e895befae616a715).
+Weasis native codecs, translations, and icons are NOT copied here.
