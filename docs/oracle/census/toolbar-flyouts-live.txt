@@ -1,0 +1,36 @@
+# Live toolbar flyout items (AppLauncher 4.7.0, DISPLAY=:1)
+
+## Measurement tools
+Selection; Line; Polyline; Rectangle; Ellipse; Three Points Circle; Polygon; Perpendicular; Parallel; Angle; Open Angle; Four Points Angle; Cobb's Angle; Pixel info
+
+## Drawing Tools
+Selection; Line; Polyline; Rectangle; Ellipse; Three Points Circle; Polygon; Annotation
+
+## Layout
+1x1 View; 1x2 Views; 2x1 Views; DICOM dump; Image Histogram; 1x3 Views; 3 views (right merged); 3 views (top merged); 1x4 Views; 2x2 Views; 2x3 Views; 2x4 Views
+
+## Synchronize
+Default Stack; Default Tile; Synchronize all views (disabled); Series Scroll (checked); Pan; Zoom; Rotation; Flip; Window/Level; Spatial Unit
+
+## Zoom type
+Actual pixel size; Resize to best fit
+
+## Mouse action [ctrl-space]
+Pan; Window/Level; Series Scroll; Zoom; Rotation; Measure; Draw; Context Menu; Crosshair; No Action
+
+## Oblique MPR menubar (live dump)
+See oblique-mpr-menu.txt. Top-level: Preset, LUT Shape, LUT, Invert LUT, Filter, Zoom, Orientation, Reset. Same family as 2D Viewer `143`–`148` (Cine / Sort Stack / Open in new tab omitted on the MPR bar).
+
+## MPR-context MIP popup (`MprView.showMprPopup`)
+Live `203-mip-menu.png` after toolbar **Build MIP from the selected view** while an Oblique MPR pane is selected (`Basic3DToolBar.getMipAction` routes `MprView` to `showMprPopup`, not `MipMenu`).
+Items: Center `Alt+X`; Show center of crosshair `Alt+C` (checked); Show crosshair `Alt+V` (checked); MIP thickness; Build a new series from the current view; Synchronize; All views.
+Nested (4.7 `MprView.java`):
+- MIP thickness expanded `213-mpr-mip-thickness.png`: 1 (3 mm) / 2 (5 mm) / 3 (7 mm) / 5 (11 mm) / 7 (15 mm) / 10 (21 mm) / 15 (31 mm) / 20 (41 mm); Reset thickness; Custom thickness.
+- MPR Custom thickness `214-mpr-custom-thickness.png`: Image Extension spinner 1; `1 pix = 3 mm`; OK / Cancel. max = volume slice size.
+- All views `215-mpr-all-views.png`: Center Ctrl+Alt+X; Show center of crosshair Ctrl+Alt+C; Show crosshair Ctrl+Alt+V (checked); MIP type; MIP thickness; Build three series from MPR views; Change MPR preferences.
+- MIP type `216-mpr-mip-type.png`: None / Min / Mean / Max.
+- Change MPR preferences `217-change-mpr-prefs.png`: Auto center axes Never / Only when the center is hidden / Always; Crosshair gap 40; Default layout 3 views (left/right/top/bottom merged) / 3 horizontal views.
+- Synchronize `218-mpr-synchronize.png`: Series Scroll (checked); Pan; Zoom; Rotation; Flip; Window/Level; Spatial Unit; Apply to all views; Close.
+2D `MipMenu` captured as `204`–`206` plus Custom thickness `212` ([mip-2d-live.txt](mip-2d-live.txt), [mip-custom-thickness-live.txt](mip-custom-thickness-live.txt)).
+3D toolbar **Open the series in the 3D viewer** on this VM: `208-3d-viewer.png` modal **Opengl Error** “Volume Rendering requires OpenGL capabilities” + Check in preferences / OK. Same family as prefs `36-prefs-3dviewer.png`.
+KO Selection `209-ko-selection.png`: None; [11]. `MipView` sets `no.ko` and disables the combo.
