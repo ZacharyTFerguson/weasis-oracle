@@ -5,7 +5,7 @@
 ## Evidence
 
 | Kind | Where |
-| --- | --- | --- |
+| --- | --- |
 | Write API | `org.weasis.core.ui.serialize.XmlSerializer.writePresentation` (File and Writer overloads) on SHA `3b3e46c59879ead782e5c474e895befae616a715` |
 | JAXB model | `org.weasis.core.ui.model.imp.XmlGraphicModel` `@XmlRootElement(name = "presentation")` |
 | Weasis unit test | `weasis-core/.../imp/suite/SerializationTest.java` marshals `<presentation>…</presentation>` |

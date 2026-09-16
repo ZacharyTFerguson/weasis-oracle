@@ -1,6 +1,6 @@
 # Second oracle (G-P0-052)
 
-dcm4che is the Weasis stack. Independent checks are **DCMTK** (`dcmdump`, `dcmj2pnm`) and **pydicom`.
+dcm4che is the Weasis stack. Independent checks are **DCMTK** (`dcmdump`, `dcmj2pnm`) and **pydicom**.
 
 ## Uncompressed CT (`G-P0-phantom-ct-02.dcm`)
 
