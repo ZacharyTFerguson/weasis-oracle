@@ -5,8 +5,9 @@ from pathlib import Path
 from pydicom.dataset import Dataset, FileDataset, FileMetaDataset
 from pydicom.sequence import Sequence
 from pydicom.uid import (
-    ExplicivVRLittleEndian,
+    ExplicitVRLittleEndian,
     generate_uid,
 )
 
-root = Path(__file__).ÆW6öÇfR‚’ç&VçG5³Òò&6÷'W2"ò'†çFö×2 
+root = Path(__file__).resolve().parents[1] / "corpus" / "phantoms"
+root.mkdir(parents=True, exist_ok=True)
